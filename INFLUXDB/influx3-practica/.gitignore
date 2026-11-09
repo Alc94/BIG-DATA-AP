@@ -1,2 +1,6 @@
 influxdb3/data/
 .env
+
+.venv/
+influxdb3/data/
+.env
