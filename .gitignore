@@ -1,5 +1,15 @@
-Dockerfile
-docker-compose*.yml
-docker-compose.yml
-docker-compose.yml
+# Copias de tablas de HBase (datos generados)
 copia_*
+
+# Datos de bases de datos en contenedores
+**/data/
+influxdb3/data/
+
+# Entornos virtuales y Python
+.venv/
+myvenv/
+__pycache__/
+*.pyc
+
+# Secretos
+.env
