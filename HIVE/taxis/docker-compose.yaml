@@ -1,0 +1,13 @@
+﻿services:
+  hive-server:
+    image: afbueno/hive:2.3.9.root
+    container_name: hive-server
+    hostname: hive-server
+    ports:
+      - "10000:10000"
+      - "10002:10002"
+      - "9870:9870"
+      - "8088:8088"
+    volumes:
+      - ./datos:/datos
+    restart: unless-stopped
